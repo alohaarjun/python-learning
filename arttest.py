@@ -1,19 +1,15 @@
-# My Code
-def compliment():
-    import random
-    random_compliments = [
-        "You have a great sense of humor!",
-        "You are very tungtungsacool.",
-        "Everybody likes the records that you play.",
-        "You're really talented.",
-        "You have a great personality."
-        "You are almost as beautiful as Arjun"
-        "You have alpha sigma dominance"
-    ]
-    return random.choice(random_compliments)
+# My Codeverb = input("Enter a verb in the same tense as dig: ")
+person = input("Enter a person's name: ")
+adjective = input("Enter an adjective: ")
+adjective2 = input("Enter another adjective: ")
+emotion = input("Enter an emotion: ")
+emotion1 = input("Enter another emotion: ")
+verb1 = input("Enter another verb in the same tense as dig: ")
 
-input_name = input("Enter your name: ")
-print(f"Hello, {input_name}!  {compliment()}")
+print(f"Last night I {verb}ed  {person} and we had a {adjective} time!  ")
+print(f"It was so {adjective2} that I can't wait to do it again. ")
+print(f"We laughed so much and I felt {emotion} the whole time. ")
+print(f"I feel so {emotion1} about the whole experience and I hope we can {verb1} again soon!")
 
 # Aditya's Code 
 noun = input("enter a noun: ")
@@ -30,6 +26,3 @@ print(f"Then suddenly they {verb}ed on {noun3} and started {adjective2}ing.")
 print(f"They then started a {noun4} and {adjective3}ed happily ever after.")
 
 # Aarav's Code
-fav_num =  input("What is your favourite number?")            
-print("Your favourite  number is  " + fav_num  + ".")                
-print(type(fav_num))                                           
