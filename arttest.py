@@ -12,14 +12,11 @@ print(f"We laughed so much and I felt {emotion} the whole time. ")
 print(f"I feel so {emotion1} about the whole experience and I hope we can {verb1} again soon!")
 
 # Aditya's Code 
-noun = input("enter a noun: ")
-noun2 = input("enter another noun: ")
-noun3 = input("add another noun big boy: ") 
-adjective = input("add the first adjective: ")
-verb = input("add another verb: ")
-adjective2 = input("add another adjective, then we can do it: ")
-noun4 = input("dont be sad, but unfortunately you have to add the last noun: ")
-adjective3 = input("the last adjective of today for you to enter sir arjun the tung: ")
+length = float(input("enter a length: "))
+width = float(input("enter the width: "))
+area = length * width  
+print(f"{area}cm²")
+
 
 print(f"The gargantuan twin giants {noun} and {noun2} started chasing the {noun3} in an {adjective} manner!")
 print(f"Then suddenly they {verb}ed on {noun3} and started {adjective2}ing.")
