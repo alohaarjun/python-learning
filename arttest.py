@@ -1,16 +1,7 @@
-# My Codeverb = input("Enter a verb in the same tense as dig: ")
-person = input("Enter a person's name: ")
-adjective = input("Enter an adjective: ")
-adjective2 = input("Enter another adjective: ")
-emotion = input("Enter an emotion: ")
-emotion1 = input("Enter another emotion: ")
-verb1 = input("Enter another verb in the same tense as dig: ")
-
-print(f"Last night I {verb}ed  {person} and we had a {adjective} time!  ")
-print(f"It was so {adjective2} that I can't wait to do it again. ")
-print(f"We laughed so much and I felt {emotion} the whole time. ")
-print(f"I feel so {emotion1} about the whole experience and I hope we can {verb1} again soon!")
-
+# My Codeverb = 
+length = (int(input("Enter the length of the rectangle: ")))
+width = (int(input("Enter the width of the rectangle: ")))
+print(f"The area of the rectangle is {length * width} cm².") 
 # Aditya's Code 
 length = float(input("enter a length: "))
 width = float(input("enter the width: "))
